@@ -40,7 +40,7 @@ export default function SaJuTableTenStar({
         return (
           <td
             key={index}
-            className="text-center border-x-[0.49px] border-[#8A8A8A] pt-[clamp(1px,2vw,8px)] pb-[clamp(1px,2vw,8px)]"
+            className="text-center border-x-[0.49px] border-[#8A8A8A] pt-[clamp(1px,2vw,8px)] pb-[clamp(1px,2vw,8px)] bg-[#F9F9F9]"
           >
             <p
               className="text-[#000000] font-normal"

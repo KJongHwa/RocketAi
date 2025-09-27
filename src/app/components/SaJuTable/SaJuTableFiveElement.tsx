@@ -42,7 +42,7 @@ export default function SaJuTableFiveElement({
         return (
           <td
             key={index}
-            className="text-center border-x-[0.49px] border-[#8A8A8A]"
+            className="text-center border-x-[0.49px] border-[#8A8A8A] bg-[#F9F9F9]"
           >
             <div
               className="rounded-xl border px-[clamp(2px,4vw,16px)] py-[clamp(2px,1vw,4px)] m-[clamp(2px,1vw,4px)]"

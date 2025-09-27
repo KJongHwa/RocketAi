@@ -36,7 +36,7 @@ export default function SaJuTableNoblePeople({
       {columns.map((col, index) => (
         <td
           key={index}
-          className="text-center border-x-[0.49px] border-[#8A8A8A] py-[clamp(1px,2vw,8px)]"
+          className="text-center border-x-[0.49px] border-[#8A8A8A] py-[clamp(1px,2vw,8px)] bg-[#F9F9F9]"
         >
           {col.noblePeople === null ? (
             <p
