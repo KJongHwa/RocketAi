@@ -38,7 +38,7 @@ export default function Home() {
         priority
         width={702}
         height={570}
-        className="w-full h-auto mb-[-100px]"
+        className="w-full h-auto translate-y-[20%]"
       />
       <div className="relative">
         <Image
@@ -47,10 +47,10 @@ export default function Home() {
           priority
           width={750}
           height={860}
-          className="w-full h-auto mb-[-20px]"
+          className="w-full h-auto translate-y-[2%]"
         />
         <p
-          className="absolute text-center text-[#424242] text-base font-normal top-[13.5%] left-[5%] w-[66%]"
+          className="absolute text-center text-[#424242] text-base font-normal top-[15%] left-[5%] w-[66%]"
           style={{
             fontSize: "clamp(1px, 4vw, 16px)",
             lineHeight: "clamp(1.5px, 6vw, 24px)",
